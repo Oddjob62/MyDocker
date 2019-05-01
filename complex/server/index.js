@@ -2,7 +2,7 @@ const keys = require('./keys');
 
 // Express App Setup
 
-const express = reqire('express');
+const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
