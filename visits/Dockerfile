@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORKDIR '/app'
+WORKDIR /app
 
 COPY package.json .
 RUN npm config set strict-ssl false && \
